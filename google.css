@@ -1,0 +1,47 @@
+/*
+Global Styling*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    border-color: #b20707;
+    text-align: center;
+}
+
+.content-wrap {
+    max-width: 950px;
+    padding: 60px 60px;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.google-label {
+    font-size: 3em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #b20707;
+}
+
+.search-button {
+    display: inline-block;
+}
+
+input[type="text"] {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 4px;
+    font-size: 1em;
+    min-height: 2em;
+}
+
+input:valid {
+    border-color: hsl(120, 50%, 50%);
+}
+
+input:invalid {
+    border-color: hsl(0, 50%, 90%);
+}
